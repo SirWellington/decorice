@@ -1,5 +1,7 @@
 # Decorice
 
+[![Build Status](http://jenkins.sirwellington.tech/job/Decorice/badge/icon)](http://jenkins.sirwellington.tech/job/Decorice)
+
 > I created this fork to get it into the Maven Central repository
 
 helper library to bind chain of decorators in guice
