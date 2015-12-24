@@ -1,4 +1,9 @@
-# decorice
+# Decorice
+
+=============
+My Fork of this library was craeted to get it into a Maven Repository.
+=============
+
 helper library to bind chain of decorators in guice
 
 You have a chain of decorators (D2 -> D1 -> D0) to bind with `Guice`. 
