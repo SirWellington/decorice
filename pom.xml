@@ -4,11 +4,58 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>decorice</groupId>
+    <groupId>tech.sirwellington.decorice</groupId>
     <artifactId>decorice</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <description>inspired by: http://stackoverflow.com/a/6197660/614800 </description>
+    <description>Forked from: https://github.com/beluchin/decorice</description>
+
+    <url>https://github.com/SirWellington/decorice</url>
+
+    <organization>
+        <name>Sir Wellington Tech</name>
+        <url>https://github.com/SirWellington</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <name>Juan Wellington Moreno</name>
+            <email>jwellington.moreno@gmail.com</email>
+            <id>SirWellington</id>
+            <organizationUrl>https://github.com/SirWellington</organizationUrl>
+            <roles>
+                <role>owner</role>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/SirWellington/decorice/issues</url>
+    </issueManagement>
+
+    <scm>
+        <connection>scm:git:git@github.com:SirWellington/decorice.git</connection>
+        <developerConnection>scm:git:git@github.com:SirWellington/decorice.git</developerConnection>
+        <url>git@github.com:SirWellington/decorice.git</url>
+    </scm>
+
+    <inceptionYear>2015</inceptionYear>
+
+    <prerequisites>
+        <maven>3.0.3</maven>
+    </prerequisites>
+
+    <!-- END OF POM METADATA -->
 
     <build>
         <plugins>
