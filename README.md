@@ -1,8 +1,6 @@
 # Decorice
 
-=============
-My Fork of this library was created it into a Maven Repository.
-=============
+> I created this fork to get it into the Maven Central repository
 
 helper library to bind chain of decorators in guice
 
