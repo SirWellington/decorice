@@ -18,6 +18,17 @@
     </organization>
 
     <developers>
+        
+        <developer>
+            <name>beluchin</name>
+            <id>SirWellington</id>
+            <organizationUrl>https://github.com/beluchin</organizationUrl>
+            <roles>
+                <role>owner</role>
+                <role>developer</role>
+            </roles>
+        </developer>
+        
         <developer>
             <name>Juan Wellington Moreno</name>
             <email>jwellington.moreno@gmail.com</email>
