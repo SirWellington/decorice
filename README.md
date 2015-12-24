@@ -1,7 +1,7 @@
 # Decorice
 
 =============
-My Fork of this library was craeted to get it into a Maven Repository.
+My Fork of this library was created it into a Maven Repository.
 =============
 
 helper library to bind chain of decorators in guice
