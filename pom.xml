@@ -55,14 +55,28 @@
         <maven>3.0.3</maven>
     </prerequisites>
     
-        <!-- END OF POM METADATA -->
-    
     <properties>
         <!--Java Compiler Properties-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+    
+    
+    
+    <distributionManagement>
+
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+
+    </distributionManagement>
 
     <!-- END OF POM METADATA -->
 
